@@ -8,7 +8,7 @@ const products = require("./api/routes/products");
 const orders = require("./api/routes/orders");
 const users = require("./api/routes/users");
 
-mongoose.connect("mongodb://localhost:27017/express-test2", {
+mongoose.connect("mongodb://mongo:27017/express-test", {
   useNewUrlParser: true
 });
 
